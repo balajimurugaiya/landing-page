@@ -1,0 +1,83 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300&family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    height:36px;
+    background-color: darkslategray;
+    gap: 16px;
+    justify-content: space-between;
+    padding: 8px 24px;
+    align-items: center;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    width: 100px;
+    height: 48px;
+    border-radius: 3px;
+    background-color: blue;
+    border-width: 0;
+}
+
+.content {
+    flex:1;
+    align-items: center;
+    background-color: lightcoral ;
+    min-height : 300px;
+    
+
+}
+
+.first-container {
+    background-color: darkslategray;
+    display: flex;
+    padding: 24px 24px;
+    gap: 16px;
+
+}
+
+.main-picture {
+    height: 200px;
+}
+
+.content #fee {
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.feature-picture {
+    border-color: aqua;
+    border-width: 5px;
+    border-style: solid;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.testimonial {
+    font-size: 36px;
+    padding: 36px 100px;
+}
+
+
